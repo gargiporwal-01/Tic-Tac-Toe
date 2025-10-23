@@ -1,16 +1,76 @@
-# React + Vite
+## Tic Tac Toe Game 🎮🟢❌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Tic Tac Toe game built with React.js. This game allows two players to play on the same device and provides a fun, visual experience with icons for X and O. It also features winner detection and a reset option.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🟢❌ Two-player gameplay (X and O)
 
-## React Compiler
+🏆 Winner and draw detection
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔄 Reset button to start a new game
 
-## Expanding the ESLint configuration
+📱 Responsive design for mobile devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Animated icons and hover effects
+
+
+## Technologies Used 🛠️
+
+React.js – Frontend library for building UI components
+
+CSS3 – Styling and animations
+
+JavaScript (ES6) – Game logic implementation
+
+## Installation 💻
+
+Clone the repository:
+
+git clone https://github.com/gargiporwal-01/tic-tac-toe-react.git
+
+
+Navigate to the project folder:
+
+cd tic-tac-toe-react
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open http://localhost:3000
+ to view it in the browser.
+
+## Usage 🎯
+
+1. Click any empty cell to place X or O
+
+2. Players alternate turns automatically
+
+3. Winner or draw is displayed 🏆
+
+4. Click Reset 🔄 to start over
+
+tic-tac-toe-react/
+│
+├── src/
+│   ├── assets/                 # Icons for circle and cross
+│   ├── components/
+│   │   └── TicTacToe/          # React TicTacToe component folder
+│   ├── TicTacToe.css           # CSS styling
+│   └── TicTacToe.jsx           # Main game component
+│
+├── package.json
+└── README.md
+
+## Contributing 🤝
+
+Feel free to submit issues or pull requests. Any improvements to the UI, animations, or functionality are welcome!
+
