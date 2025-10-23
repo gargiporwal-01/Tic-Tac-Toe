@@ -58,6 +58,7 @@ Open http://localhost:3000
 
 4. Click Reset 🔄 to start over
 
+## Folder Structure
 tic-tac-toe-react/
 │
 ├── src/
