@@ -60,16 +60,15 @@ Open http://localhost:3000
 
 ## Folder Structure
 tic-tac-toe-react/
-│
-├── src/
-│   ├── assets/                 # Icons for circle and cross
-│   ├── components/
-│   │   └── TicTacToe/          # React TicTacToe component folder
-│   ├── TicTacToe.css           # CSS styling
-│   └── TicTacToe.jsx           # Main game component
-│
-├── package.json
-└── README.md
+├─ src/
+│  ├─ assets/               # Icons for circle and cross
+│  ├─ components/
+│  │  └─ TicTacToe/         # React TicTacToe component folder
+│  ├─ TicTacToe.css          # CSS styling
+│  └─ TicTacToe.jsx          # Main game component
+├─ package.json
+└─ README.md
+
 
 ## Contributing 🤝
 
